@@ -25,6 +25,7 @@ set number
 set ruler
 set showmatch
 set smartcase
+set t_Co=16
 set whichwrap+=<,>,h,l
 set wildmenu
 
