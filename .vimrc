@@ -33,14 +33,13 @@ syntax on
 
 filetype indent plugin on
 
-map <F1> :h
+map <F1> :h<CR>
 map <F2> :e
-map <F3> :w<CR>
-map <F4> :q<CR>
+map <F3> :noh<CR>
+map <F4> :%s/
 map <F5> VGy
 map <F6> :w<CR>
 map <F7> :bp<CR>
 map <F8> :bn<CR>
 map <F9> :bd<CR>
 map <F10> :q<CR>
-
